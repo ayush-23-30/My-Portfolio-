@@ -39,7 +39,7 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    if(!formValue.fullname || !formValue.email || !formValue.message) {
+    if(!formValue.fullname || !formValue.message) {
       toast.error("Feilds are not Filled!", {
         position: "top-right",
       });
