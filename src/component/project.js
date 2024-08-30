@@ -38,7 +38,7 @@ id: 4,
 title : "Currency Converter" , 
 img : currency,
 des : "A React-based currency converter fetching exchange rates from an API, featuring currency swapping and local storage for favorite currencies.", 
-link : "https://github.com/ayush-23-30/react-project-by-self/tree/main/curreny%20convert/converter"
+link : "https://github.com/ayush-23-30/react-project-by-self/tree/main/curreny%20convert"
 }, 
   {
 id: 5, 
