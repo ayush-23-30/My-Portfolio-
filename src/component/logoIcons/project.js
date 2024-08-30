@@ -1,6 +1,6 @@
 import blog from '../../assets/blog.png'
 import bubble from '../../assets/bubble.png'
-import cart from '../../assets/Cart.png'
+
 import currency from '../../assets/currency.png'
 import finology from '../../assets/finology.png'
 import hotel from '../../assets/hotel.png'
@@ -19,13 +19,13 @@ des : "Mega Blog Website is a responsive and modern blog platform built using Re
 link : "https://github.com/ayush-23-30/Write-Your-Blog"
 
 }, 
-  {
-id: 2,  
-title : "Cart Ease", 
-img : cart,
-des : "Cart Ease is a responsive e-commerce application built with React, Tailwind CSS, and Context API. The application includes features such as product listing, filtering, sorting, and a shopping cart functionality.", 
-link : "https://github.com/ayush-23-30/Cart-Ease-"
-}, 
+//   {
+// id: 2,  
+// title : "Cart Ease", 
+// img : cart,
+// des : "Cart Ease is a responsive e-commerce application built with React, Tailwind CSS, and Context API. The application includes features such as product listing, filtering, sorting, and a shopping cart functionality.", 
+// link : "https://github.com/ayush-23-30/Cart-Ease-"
+// }, 
   {
 id: 3, 
 title : "Weather App", 
