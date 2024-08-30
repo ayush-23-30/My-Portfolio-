@@ -83,7 +83,7 @@ function Main() {
               <Carousel
                 plugins={[
                   Autoplay({
-                    delay: 500,
+                    delay: 1000,
                   }),
                 ]}
                 className="w-full py-10"
