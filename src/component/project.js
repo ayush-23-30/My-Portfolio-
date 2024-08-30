@@ -5,7 +5,7 @@ import finology from '../component/projectImage/finology.png'
 import hotel from '../component/projectImage/hotel.png'
 import router from '../component/projectImage/router.png'
 import tictactoe from '../component/projectImage/tictactoe.png'
-import weatherapp from '../component/projectImage/weather.png'
+import weatherapp from '../component/projectImage/weatherapp.png'
 import cart from '../component/projectImage/cart.png'
 
 
