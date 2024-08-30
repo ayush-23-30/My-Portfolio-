@@ -1,6 +1,6 @@
 import blog from '../../assets/blog.png'
 import bubble from '../../assets/bubble.png'
-import cart from '../../assets/cart.png'
+import cart from '../../assets/Cart.png'
 import currency from '../../assets/currency.png'
 import finology from '../../assets/finology.png'
 import hotel from '../../assets/hotel.png'

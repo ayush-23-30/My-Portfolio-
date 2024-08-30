@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub } from "react-icons/fa6";
 import { ProjectData } from './logoIcons/project';
 
+
 function Projects() {
   return (
     <div className="flex items-center justify-center flex-col pb-10 text-white pt-6 bg-black">
