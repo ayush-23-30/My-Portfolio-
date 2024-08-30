@@ -52,7 +52,7 @@ id: 6,
 title : "React Router Dom" , 
 img : router,
 des : "A responsive React header component with navigation links, using react-router-dom for routing, and highlighting active links..", 
-link : "#"
+link : "https://github.com/ayush-23-30/react-project-by-self/tree/main/router/route"
 
 }, 
 {
@@ -74,5 +74,5 @@ id: 9,
 title : "Tic Tac Toe Game" , 
 img : tictactoe,
 des : " A classic Tic Tac Toe game built using JavaScript, allowing two players to compete in a 3x3 grid with dynamic gameplay and winner detection.",
-link : ""
+link : "https://github.com/ayush-23-30/Internship-Projects/tree/main/Tic-Tac-Toe%20Game"
 }]
