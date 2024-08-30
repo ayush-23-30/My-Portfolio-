@@ -1,12 +1,12 @@
-import blog from '../../assets/blog.png'
-import bubble from '../../assets/bubble.png'
-import currency from '../../assets/currency.png'
-import finology from '../../assets/finology.png'
-import hotel from '../../assets/hotel.png'
-import router from '../../assets/router.png'
-import tictactoe from '../../assets/tictactoe.png'
-import weatherapp from '../../assets/weatherapp.png'
-import cart from '../../assets/cart.png'
+import blog from '../component/projectImage/blog.png'
+import bubble from '../component/projectImage/bubble.png'
+import currency from '../component/projectImage/currency.png'
+import finology from '../component/projectImage/finology.png'
+import hotel from '../component/projectImage/hotel.png'
+import router from '../component/projectImage/router.png'
+import tictactoe from '../component/projectImage/tictactoe.png'
+import weatherapp from '../component/projectImage/weather.png'
+import cart from '../component/projectImage/cart.png'
 
 
 

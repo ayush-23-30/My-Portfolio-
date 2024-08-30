@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa6";
-import { ProjectData } from './logoIcons/project';
+import { ProjectData } from './project';
 
 
 function Projects() {
