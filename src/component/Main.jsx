@@ -64,10 +64,10 @@ function Main() {
                     target="_blank"
                   >
                     {" "}
-                    <FaGithub />{" "}
+                    <FaGithub />
                   </a>
                 </div>
-                <div className="group ">
+                <div className="group">
                   <a
                     href="https://www.linkedin.com/in/ayush-kumar-529122320/"
                     target="_blank"
@@ -83,7 +83,7 @@ function Main() {
               <Carousel
                 plugins={[
                   Autoplay({
-                    delay: 2000,
+                    delay: 500,
                   }),
                 ]}
                 className="w-full py-10"
