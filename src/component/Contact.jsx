@@ -27,15 +27,15 @@ function Contact() {
     message: "",
   });
 
-  // const onChangeHandler = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormValue((last) => {
-  //     return {
-  //       ...last,
-  //       [name]: value,
-  //     };
-  //   });
-  // };
+  const onChangeHandler = (e) => {
+    const { name, value } = e.target;
+    setFormValue((last) => {
+      return {
+        ...last,
+        [name]: value,
+      };
+    });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -130,8 +130,8 @@ function Contact() {
                   name="fullname"
                   id="fullname"
 
-                  // value={formValue.fullname}
-                  // onChange={onChangeHandler}
+                  value={formValue.fullname}
+                  onChange={onChangeHandler}
                   className="bg-purple-200 rounded-md outline-none border-2 border-purple-400 p-2 mb-7 text-md font-semibold h-10 text-[#042b38] w-[350px] *:placeholder:"
                   placeholder="Full name*"
                 />
@@ -140,8 +140,8 @@ function Contact() {
                 <input
                   type="text"
                   id="email"
-                  // value={formValue.email}
-                  // onChange={onChangeHandler}
+                  value={formValue.email}
+                  onChange={onChangeHandler}
                   name="email"
                   className="bg-purple-200 rounded-md outline-none border-2 border-purple-400 p-2 mb-7 text-md font-semibold h-10 text-[#042b38] w-[350px] *:placeholder:"
                   placeholder="Email*"
@@ -151,8 +151,8 @@ function Contact() {
                 <textarea
                   name="message"
                   id="message"
-                  // value={formValue.message}
-                  // onChange={onChangeHandler}
+                  value={formValue.message}
+                  onChange={onChangeHandler}
                   className="bg-purple-200 rounded-md outline-none border-2 h-40 border-purple-400 p-2 mb-7 text-md font-semibold  text-[#042b38] w-[350px] *:placeholder:"
                   placeholder="Enter your Message* "
                 ></textarea>
