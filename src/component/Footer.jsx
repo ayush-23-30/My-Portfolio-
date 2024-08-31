@@ -69,8 +69,7 @@ function Footer() {
         <div className="flex gap-5 flex-wrap mt-4 md:gap-14 underline text-center">
           <p> &copy; 2024 Ayush. All rights reserved.</p>
          
-          <Link to="/privacy-policy" className="hover:text-[#00BFFF]">Privacy Policy</Link>
-          <Link to="/" className="hover:text-[#00BFFF]">License Information</Link>
+        
           <Link to="/contact" className="hover:text-[#00BFFF]">Connect with Me</Link>
         </div>
 
