@@ -61,12 +61,12 @@ function Footer() {
         </div>
       </div>
 
-      <div className="text-white text-[12px] mx-8 md:mx-32 font-medium border-[#00BFFF] md:text-[15px] border-t-[2px]">
+      <div className="text-white text-[12px]   mx-8 md:mx-32 font-medium border-[#00BFFF] md:text-[15px] border-t-[2px]">
         <p className="pt-3 text-center">
           Thank you for visiting my website! I hope you enjoyed exploring my
           projects and learning about my journey as a developer.
         </p>
-        <div className="flex gap-5 flex-wrap mt-4 md:gap-14 underline text-center">
+        <div className="flex gap-5 flex-wrap items-center justify-center mt-4 md:gap-14 underline text-center">
           <p> &copy; 2024 Ayush. All rights reserved.</p>
          
         
