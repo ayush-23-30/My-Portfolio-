@@ -22,7 +22,7 @@ function Skills() {
             <h2 className="text-[2.5rem] font-[500] mb-[10px] text-[#00BFFF] max-md:text-[1.6rem]">
               {currentSkill.title}
             </h2>
-            <p className="text-[1.2rem] mb-[15px] text-slate-400 max-md:text-[1rem]">
+            <p className="text-[1.2rem]  mb-[18px] text-slate-400 max-md:text-[1rem]">
               {currentSkill.description}
             </p>
           </div>
