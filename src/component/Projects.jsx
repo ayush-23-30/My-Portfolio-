@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa6";
 import { ProjectData } from './project';
+import { FaArrowRightToBracket } from "react-icons/fa6";
+
 
 
 function Projects() {
@@ -19,9 +21,13 @@ function Projects() {
               <h3 className='text-xl md:text-2xl font-semibold text-[#00BFFF]'>
                 {data.title}
               </h3>
+              <div className="flex ">
               <a href={data.link} target='_blank' rel='noopener noreferrer'>
                 <FaGithub className='text-xl text-[#00BFFF]' />
               </a>
+                <a href= {data.vercel} target='_blank' > <FaArrowRightToBracket className='text-xl ml-2 text-[#00BFFF]'/>  </a>
+
+              </div>
             </div>
             <p className='tracking-tighter text-sm md:text-base text-[#94A3B8]'>
               {data.des}
