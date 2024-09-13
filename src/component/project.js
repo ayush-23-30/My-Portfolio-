@@ -24,7 +24,7 @@ export const ProjectData = [
     img: cart,
     des: "Cart Ease is a responsive e-commerce application built with React, Tailwind CSS, and Context API. The application includes features such as product listing, filtering, sorting, and a shopping cart functionality.",
     link: "https://github.com/ayush-23-30/Cart-Ease-",
-    vercel:"https://cart-ease-six.vercel.app/"
+    vercel:"https://ease-cart.vercel.app/"
   },
   {
     id: 3,
