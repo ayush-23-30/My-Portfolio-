@@ -60,20 +60,21 @@ export const ProjectData = [
   },
   {
     id: 7,
-    title: "Finology Clone",
-    img: finology,
-    des: "A full HTML and CSS clone of the Finology website, replicating its design and responsive layout without JavaScript or frameworks.",
-    link: "https://github.com/ayush-23-30/full-Website-UI/tree/main/finology",
-    vercel: "#",
-  },
-  {
-    id: 8,
     title: "Bubble Game",
     img: bubble,
     des: " A simple click-based game where players pop bubbles displaying random numbers, aiming to match a target number within a time limit.",
     link: "https://github.com/ayush-23-30/React-learning-projects/tree/main/bubble%20game",
     vercel: "https://bubble-game-lyart.vercel.app/",
   },
+  {
+    id: 8,
+    title: "Finology Clone",
+    img: finology,
+    des: "A full HTML and CSS clone of the Finology website, replicating its design and responsive layout without JavaScript or frameworks.",
+    link: "https://github.com/ayush-23-30/full-Website-UI/tree/main/finology",
+    vercel: "#",
+  },
+ 
   {
     id: 9,
     title: "Tic Tac Toe Game",
