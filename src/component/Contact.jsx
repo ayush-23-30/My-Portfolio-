@@ -85,7 +85,7 @@ function Contact() {
               If you're looking for a dedicated developer with experience in
               React, Node.js, and other cutting-edge technologies, I'm eager to
               bring my skills to your team. Feel free to reach out to discuss
-              how I can contribute to your projects."
+              how I can contribute to your projects.
             </p>
 
             <div className="pt-5">
