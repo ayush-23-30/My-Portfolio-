@@ -7,8 +7,17 @@ import router from "../component/projectImage/router.png";
 import tictactoe from "../component/projectImage/tictactoe.png";
 import weatherapp from "../component/projectImage/weatherapp.png";
 import cart from "../component/projectImage/cart.png";
+import Hirrd from "../component/projectImage/Hirrd.png";
 
 export const ProjectData = [
+  {
+    id: 6,
+    title: "Hirrd-Job-Portal",
+    img: Hirrd,
+    des: "A job portal app connects job seekers with employers, allowing users to search, apply, and manage job listings.",
+    link: "https://github.com/ayush-23-30/Hirrd-by-me",
+    vercel: "https://hirrd-by-me.vercel.app/",
+  },
   {
     id: 1,
     title: "Blog Master",
@@ -34,6 +43,7 @@ export const ProjectData = [
     link: "https://github.com/ayush-23-30/React-learning-projects/tree/main/weather%20app",
     vercel: "https://weather-app-ten-khaki-63.vercel.app/",
   },
+
   {
     id: 4,
     title: "Currency Converter",
@@ -49,14 +59,6 @@ export const ProjectData = [
     des: "A responsive dropdown menu for a restaurant website, dynamically rendering categories and designed for mobile-friendly navigation.",
     link: " https://github.com/ayush-23-30/react-project-by-self/tree/main/hotel/hotel",
     vercel: "https://hotel-menu-wine.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "React Router Dom",
-    img: router,
-    des: "A responsive React header component with navigation links, using react-router-dom for routing, and highlighting active links..",
-    link: "https://github.com/ayush-23-30/react-project-by-self/tree/main/router/route",
-    vercel: "#",
   },
   {
     id: 7,
