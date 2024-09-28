@@ -6,14 +6,15 @@ import hotel from "../component/projectImage/hotel.png";
 import router from "../component/projectImage/router.png";
 import tictactoe from "../component/projectImage/tictactoe.png";
 import weatherapp from "../component/projectImage/weatherapp.png";
+import hirrd from "../component/projectImage/hirrd.png"
 import cart from "../component/projectImage/cart.png";
-import Hirrd from "../component/projectImage/Hirrd.png";
+
 
 export const ProjectData = [
   {
     id: 6,
     title: "Hirrd-Job-Portal",
-    img: Hirrd,
+    img: hirrd,
     des: "A job portal app connects job seekers with employers, allowing users to search, apply, and manage job listings.",
     link: "https://github.com/ayush-23-30/Hirrd-by-me",
     vercel: "https://hirrd-by-me.vercel.app/",
