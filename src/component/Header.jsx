@@ -28,12 +28,12 @@ function Header() {
         </div>
 
         {/* Menu Icon for mobile view */}
-        <div className="md:hidden text-3xl text-[#00BFFF] pr-3 cursor-pointer" onClick={toggleNavbar}>
+        <div className="md:hidden  text-3xl text-[#00BFFF] pr-3 cursor-pointer" onClick={toggleNavbar}>
           {open ? <MdClose /> : <MdMenuOpen />}
         </div>
 
         {/* Side Navbar for mobile view */}
-        <div className={`fixed top-0 left-0 h-full w-40 bg-[#00BFFF] text-white transform ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
+        <div className={`fixed top-0 left-0 h-full w-40  z-10 bg-[#00BFFF] text-white transform ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
           <div className="flex flex-col p-5 space-y-4">
             <div className="group">
               <Link to="/" className="cursor-pointer z-10  font-semibold transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#FDFEFE]" onClick={handleLinkClick}>
