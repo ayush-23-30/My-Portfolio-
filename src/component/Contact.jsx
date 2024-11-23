@@ -10,6 +10,21 @@ import { toast, ToastContainer } from "react-toastify";
 function Contact() {
   const form = useRef();
 
+  const downloadAppNavigatorBTN = () => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+    if (/android/i.test(userAgent)) {
+      // Redirect to Play Store
+      window.location.href = "https://play.google.com/store/apps/details?id=com.reelax.influencer";
+    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      // Redirect to App Store
+      window.location.href = "https://apps.apple.com/in/app/reelax-influencer-app/id6464481879";
+    }
+     else {
+      alert("Unsupported platform. Please visit on iOS or Android.");
+    }
+  };
+
   const sended = () => {
     toast.success("Sent successfully", {
       position: "top-right",
@@ -164,6 +179,13 @@ function Contact() {
                 Send Message
               </Button>
             </form>
+              <Button
+              onClick = {downloadAppNavigatorBTN}
+                variant="blue"
+                className=" mt-4 hover:text-x w-44 font-serif text-xl "
+              >
+                download 
+              </Button>
           </div>
         </div>
         <ToastContainer
