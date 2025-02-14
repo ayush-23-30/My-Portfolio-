@@ -12,6 +12,10 @@ import postman from './logoIcons/postman.png'
 import shadcn from './logoIcons/shadcn.webp'
 import tailwind from './logoIcons/tailwind.png'
 import vscode from './logoIcons/vscode.png'
+import native from './logoIcons/android.webp'
+import python from './logoIcons/python.webp'
+import redis from './logoIcons/redis.webp'
+import socket from './logoIcons/socket-io.webp'
 
 export const iconSkill = [
   {
@@ -23,6 +27,26 @@ export const iconSkill = [
     "name": "C++",
     "img": cpp,
     "id": 2
+  },
+  {
+    "name": "React-Native",
+    "img":  native,
+    "id": 92
+  },
+  {
+    "name": "Python",
+    "img":  python,
+    "id": 32
+  },
+  {
+    "name": "Socket-io",
+    "img":  socket,
+    "id": 23
+  },
+  {
+    "name": "Redis",
+    "img":  redis,
+    "id": 232
   },
   {
     "name": "Clerk",

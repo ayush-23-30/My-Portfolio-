@@ -8,9 +8,26 @@ import tictactoe from "../component/projectImage/tictactoe.png";
 import weatherapp from "../component/projectImage/weatherapp.png";
 import hirrd from "../component/projectImage/hirrd.png"
 import cart from "../component/projectImage/cart.png";
-
+import gemini from '../component/projectImage/gemini.png'
+import creators from '../component/projectImage/creators.png'
 
 export const ProjectData = [
+  {
+    id: 12,
+    title: "Creators.getreelax",
+    img: creators,
+    des: "An Creators Platform to collab with brands to get earning opportunities, This is my Internship project, Worked single handly and Intergrate Features.",
+    link: "https://github.com/ayush-23-30/own_I",
+    vercel: "https://creators.getreelax.com/",
+  },
+  {
+    id: 56,
+    title: "OWN-AI [Generative AI]",
+    img: gemini,
+    des: "Developed an AI-powered chat system using the Gemini API within a MERN stack application, enabling real-time interactions.",
+    link: "https://github.com/ayush-23-30/Hirrd-by-me",
+    vercel: "https://hirrd-by-me.vercel.app/",
+  },
   {
     id: 6,
     title: "Hirrd-Job-Portal",

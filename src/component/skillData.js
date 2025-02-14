@@ -14,6 +14,10 @@ import react from './logoIcons/react.png'
 import redux from './logoIcons/redux.webp'
 import html from './logoIcons/html.png'
 import javaScript from './logoIcons/js.png'
+import native from './logoIcons/android.webp'
+import python from './logoIcons/python.webp'
+import redis from './logoIcons/redis.webp'
+import socket from './logoIcons/socket-io.webp'
 
 export const skill_data = [
   {
@@ -40,6 +44,26 @@ export const skill_data = [
     image: tailwind,
     title: "Tailwind CSS",
     description: "Tailwind CSS is a utility-first CSS framework that provides low-level utility classes for styling. It allows developers to build custom designs quickly without leaving the HTML, making the development process faster and more efficient."
+  },
+  {
+    image: native,
+    title: "React-Native",
+    description: "React Native is a popular framework for building native mobile apps using JavaScript and React. It allows developers to write code once and run it on both iOS and Android platforms, providing a consistent and high-performance user experience."
+  },
+  {
+    image: python,
+    title: "Python",
+    description: "Python is a versatile and powerful programming language known for its simplicity and readability. It's widely used for web development, data analysis, scientific computing, artificial intelligence, and many other applications. Its extensive library support and large community make it a top choice for developers."
+  },
+  {
+    image: redis,
+    title: "Redis-io",
+    description: "Redis (Remote Dictionary Server) is an in-memory data structure store used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, and more. Redis is known for its high performance and ease of use, making it a popular choice for real-time applications."
+  },
+  {
+    image: socket,
+    title: "Socket.io",
+    description: "Socket.IO is a JavaScript library that enables real-time, bidirectional, event-based communication between web clients and servers. It is commonly used for building chat applications, live updates, and collaborative tools. Socket.IO ensures reliable and low-latency connections, making it ideal for dynamic web applications."
   },
   {
     image: nodejs,

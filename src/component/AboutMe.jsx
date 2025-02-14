@@ -26,20 +26,11 @@ function AboutMe() {
             </h3>
             <p className="text-xl md:text-2xl pt-2">Full Stack Developer</p>
             <p className="text-[#94A3B8] pt-4 md:text-lg tracking-tighter">
-              I'm Ayush Kumar, a passionate Full Stack Developer currently
-              pursuing my Master of Computer Applications (MCA) from Manipal
-              University. With a strong foundation in the MERN stack (MongoDB,
-              Express.js, React, Node.js), I specialize in building responsive,
-              user-friendly web applications. My expertise extends to front-end
-              technologies like HTML, CSS, JavaScript, and Tailwind CSS, and I'm
-              continuously enhancing my skills in Data Structures and Algorithms
-              (DSA) to solve complex problems efficiently.
-              <br />I thrive on learning new technologies and applying them to
-              real-world projects. My goal is to create scalable, maintainable,
-              and innovative solutions that make a difference. I'm eager to
-              contribute to dynamic development teams and work on challenging
-              projects that push the boundaries of what's possible in software
-              development.
+              I'm  Ayush Kumar, a Full Stack Developer currently pursuing my Master of Computer Applications (MCA) from Manipal University. I specialize in building responsive web applications using the MERN stack (MongoDB, Express.js, React, Node.js). My skills include front-end technologies like HTML, CSS, JavaScript, and Tailwind CSS. I also excel in Data Structures and Algorithms (DSA) with a track record of solving 180+ DSA problems.
+<br/>
+With 6 months of industry experience, I'm adept at both front-end and back-end development. I have experience in leading teams, collaborating on projects, and optimizing system performance. I thrive on learning new technologies and applying them to real-world projects.
+
+My goal is to create scalable, maintainable, and innovative solutions. I'm eager to contribute to dynamic development teams and work on challenging projects that push the boundaries of software development.
             </p>
             <div className="my-5 gap-10 w-full flex items-center justify-center">
   <a href="https://github.com/ayush-23-30" target="_blank" className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg">

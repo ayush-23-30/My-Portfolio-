@@ -13,8 +13,7 @@ import {
   AccordionTrigger,
 } from "../compo.ui/accordion";
 import { FAQ } from "./Faq";
-import resumee from "../assets/resume.pdf";
-import myResume from '../assets/my_resume.pdf'
+import myResume from '../assets/resume.pdf'
 
 function Main() {
   // console.log("" , iconSkill);
@@ -31,7 +30,7 @@ function Main() {
 
               <p className="text-4xl font-serif font-semibold md:text-7xl ">
                 {" "}
-                Hey, I'm{" "}
+                Hey, I'm
               </p>
               <p className="text-[#00BFFF]  text-6xl md:text-[8rem] font-serif font-semibold ">
                 {" "}
