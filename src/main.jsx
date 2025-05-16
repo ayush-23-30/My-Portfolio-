@@ -8,6 +8,7 @@ import AboutMe from './component/AboutMe.jsx'
 import Contact from './component/Contact.jsx'
 import Projects from './component/Projects.jsx'
 import Skills from './component/Skills.jsx'
+import Exper from './component/Exper.jsx'
 
 
 
@@ -30,9 +31,14 @@ const router = createBrowserRouter([
       {
         path : '/skills', 
         element : <Skills/>
-      }, {
+      }, 
+      {
         path : '/projects' , 
         element : <Projects/>
+      },
+      {
+        path : '/exp' , 
+        element : <Exper/>
       }
     ]
   }

@@ -25,32 +25,65 @@ function AboutMe() {
               Ayush Kumar
             </h3>
             <p className="text-xl md:text-2xl pt-2">Full Stack Developer</p>
-            <p className="text-[#94A3B8] pt-4 md:text-lg tracking-tighter">
-              I'm  Ayush Kumar, a Full Stack Developer currently pursuing my Master of Computer Applications (MCA) from Manipal University. I specialize in building responsive web applications using the MERN stack (MongoDB, Express.js, React, Node.js). My skills include front-end technologies like HTML, CSS, JavaScript, and Tailwind CSS. I also excel in Data Structures and Algorithms (DSA) with a track record of solving 180+ DSA problems.
-<br/>
-With 6 months of industry experience, I'm adept at both front-end and back-end development. I have experience in leading teams, collaborating on projects, and optimizing system performance. I thrive on learning new technologies and applying them to real-world projects.
+           <p className="text-[#94A3B8] pt-4 md:text-lg tracking-tighter">
+  I'm Ayush Kumar, a <span className="font-semibold text-white">Full Stack Developer</span> currently pursuing my MCA
+  from Manipal University. I specialize in building scalable web
+  applications using the <span className="font-semibold text-white">MERN stack</span> 
+  (<span className="font-semibold text-white">MongoDB, Express.js, React, Node.js</span>) and have experience across both front-end and back-end
+  development. My technical skills include 
+  <span className="font-semibold text-white"> HTML, CSS, JavaScript, Tailwind CSS</span>, and strong problem-solving abilities backed by
+  solving <span className="font-semibold text-white">180+ DSA problems</span>.
+  <br />
+  With <span className="font-semibold text-white">6 months of industry experience</span>, I’ve contributed to real-world projects, 
+  led development teams, and optimized system performance. I’m currently working at 
+  <span className="font-semibold text-white"> Reelax</span> as a 
+  <span className="font-semibold text-white"> Junior Software Engineer</span>.
+  <br />
+  I’m also expanding my expertise in 
+  <span className="font-semibold text-white"> Artificial Intelligence and Machine Learning (AI/ML)</span>, 
+  focusing on core mathematical foundations and hands-on model development using 
+  <span className="font-semibold text-white"> Python</span>. Driven by curiosity and innovation, I aim to build impactful, intelligent solutions and
+  contribute to high-performing tech teams.
+</p>
 
-My goal is to create scalable, maintainable, and innovative solutions. I'm eager to contribute to dynamic development teams and work on challenging projects that push the boundaries of software development.
-            </p>
             <div className="my-5 gap-10 w-full flex items-center justify-center">
-  <a href="https://github.com/ayush-23-30" target="_blank" className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg">
-    <FaGithubSquare />
-  </a>
-  <a href="https://www.instagram.com/pawar.ayush_23_30/" className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 
-   transform hover:scale-110 hover:shadow-lg" target="_blank">
-    <FaInstagram />
-  </a>
-  <a href="https://www.linkedin.com/in/ayush-kumar-529122320/" className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg" target="_blank">
-    <FaLinkedin />
-  </a>
-  <a href="mailto:pawar85060@gmail.com" className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg" target="_blank">
-    <SiGmail />
-  </a>
-  <a href="https://www.naukri.com/code360/profile/aaayuussshhh" className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg" target="_blank">
-    <SiLeetcode />
-  </a>
-</div>
-
+              <a
+                href="https://github.com/ayush-23-30"
+                target="_blank"
+                className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg"
+              >
+                <FaGithubSquare />
+              </a>
+              <a
+                href="https://www.instagram.com/pawar.ayush_23_30/"
+                className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 
+   transform hover:scale-110 hover:shadow-lg"
+                target="_blank"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ayush-kumar-529122320/"
+                className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="mailto:pawar85060@gmail.com"
+                className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg"
+                target="_blank"
+              >
+                <SiGmail />
+              </a>
+              <a
+                href="https://www.naukri.com/code360/profile/aaayuussshhh"
+                className="text-3xl md:text-4xl text-[#00BFFF] transition-transform duration-300 transform hover:scale-110 hover:shadow-lg"
+                target="_blank"
+              >
+                <SiLeetcode />
+              </a>
+            </div>
           </div>
         </div>
       </div>

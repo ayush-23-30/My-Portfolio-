@@ -10,8 +10,17 @@ import hirrd from "../component/projectImage/hirrd.png"
 import cart from "../component/projectImage/cart.png";
 import gemini from '../component/projectImage/gemini.png'
 import creators from '../component/projectImage/creators.png'
+import bill from '../component/projectImage/bill.png'
 
 export const ProjectData = [
+  {
+    id: 122,
+    title: "Bill Creation",
+    img: bill,
+    des: "An Empolyee Handling Platform to collab with Compaines to get They Info and Salary handling, This is my Personal project, Currently on-going Project, Not Completed yet.",
+    link: "#",
+    vercel: "https://bill-creation.vercel.app/dashboard",
+  },
   {
     id: 12,
     title: "Creators.getreelax",

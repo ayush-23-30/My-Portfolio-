@@ -39,6 +39,17 @@ function Footer() {
           </div>
           <div className="group text-center">
             <Link
+              to="/exp"
+              className="block text-lg md:text-2xl font-semibold mb-2 transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#00BFFF]"
+            >
+              Experience
+            </Link>
+            <p className="text-sm md:text-base text-gray-400">
+              View the projects I’ve been working on.
+            </p>
+          </div>
+          <div className="group text-center">
+            <Link
               to="/projects"
               className="block text-lg md:text-2xl font-semibold mb-2 transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#00BFFF]"
             >

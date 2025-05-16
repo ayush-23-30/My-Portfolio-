@@ -13,7 +13,7 @@ import {
   AccordionTrigger,
 } from "../compo.ui/accordion";
 import { FAQ } from "./Faq";
-import myResume from '../assets/resume.pdf'
+import myResume from '../assets/my_resume.pdf'
 
 function Main() {
   // console.log("" , iconSkill);
@@ -47,11 +47,12 @@ function Main() {
               <div className="my-5  flex items-center  gap-5">
                 <div className=" group">
                   <a
-                    href={myResume}
-                    download="my_resume.pdf"
+                    href='https://drive.google.com/file/d/1mUEMiJ592Ob9XuW57pa2bpXi5LROCTVa/view?usp=sharing'
+                    // download="my_resume.pdf"
                     className="border-[2px] flex tracking-tighter rounded-full px-3 text-[#00BFFF] border-[#00BFFF] font-semibold items-center gap-2 p-1 transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#00BFFF]"
+                    target="_blank"
                   >
-                    Download CV{" "}
+                    Open CV{" "}
                     <span>
                       <IoIosCloudDownload />
                     </span>

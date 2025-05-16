@@ -39,7 +39,15 @@ function Header() {
               <Link to="/" className="cursor-pointer z-10  font-semibold transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#FDFEFE]" onClick={handleLinkClick}>
                 Home
               </Link>
+
             </div>
+
+  <div className="group">
+              <Link to="/exp" className="cursor-pointer font-semibold transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#FDFEFE]" onClick={handleLinkClick}>
+                Experience 
+              </Link>
+            </div>
+
             <div className="group">
               <Link to="/about" className="cursor-pointer font-semibold transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#FDFEFE]" onClick={handleLinkClick}>
                 About
@@ -60,6 +68,7 @@ function Header() {
                 Contact
               </Link>
             </div>
+          
           </div>
         </div>
 
@@ -70,6 +79,11 @@ function Header() {
               About
             </Link>
           </div>
+            <div className="group">
+              <Link to="/exp" className="cursor-pointer font-semibold transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#FDFEFE]" onClick={handleLinkClick}>
+                Experience 
+              </Link>
+            </div>
           <div className="group">
             <Link to="/skills" className="cursor-pointer font-semibold transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#FDFEFE]">
               Skills
@@ -85,6 +99,7 @@ function Header() {
               Contact
             </Link>
           </div>
+       
         </div>
       </div>
     </>
