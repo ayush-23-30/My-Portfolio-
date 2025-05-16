@@ -38,10 +38,9 @@ function Main() {
               </p>
               <p className=" mt-6  md:text-xl leading-6  md:w-[44vw]  ">
                 {" "}
-                Industrious Entry-Level Full Stack MERN Developer proficient in
-                React, Node.js, Express, MongoDB, JavaScript, HTML, CSS,
-                Tailwind, and Git, with ongoing learning in Data Structures and
-                Algorithms (DSA).
+      Full Stack Developer with <span className="font-semibold text-white">6 months of industry experience</span> building scalable web applications using the <span className="font-semibold text-white">MERN stack</span> (MongoDB, Express.js, React, Node.js). Proficient in <span className="font-semibold text-white">JavaScript, HTML, CSS, Tailwind CSS, and Git</span>, with a solid foundation in <span className="font-semibold text-white">Data Structures and Algorithms (DSA)</span>. Currently deepening expertise in <span className="font-semibold text-white">Artificial Intelligence and Machine Learning (AI/ML)</span>, focusing on core concepts and hands-on development using <span className="font-semibold text-white">Python</span>.
+
+
               </p>
 
               <div className="my-5  flex items-center  gap-5">
