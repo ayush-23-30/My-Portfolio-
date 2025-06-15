@@ -76,6 +76,21 @@ function Main() {
                     <FaLinkedin />
                   </a>
                 </div>
+
+ <div className=" group">
+                  <a
+                    href='https://ml-portfolio-pearl.vercel.app/'
+                    
+                    className="border-[2px] flex tracking-tighter rounded-full px-3 text-[#00BFFF] border-[#00BFFF] font-semibold items-center gap-2 p-1 transition-transform duration-200 ease-in-out transform group-hover:scale-105 group-hover:text-[#00BFFF]"
+                    target="_blank"
+                  >
+                 ML - Portfolio {" "}
+                    <span>
+                      <IoIosCloudDownload />
+                    </span>
+                  </a>
+                </div>
+
               </div>
             </div>
 
